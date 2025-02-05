@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: url("../img/fondo3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+  backdrop-filter: blur(5px); /* Suavizado de fondo */
+}
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 3em;
+  color: #0074d9;
+}
+h2 {
+  font-size: 2.5em;
+  color: #2ecc40;
+}
+h3 {
+  font-size: 2em;
+  color: #85144b;
+}
+p {
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+.contenedor1, .contenedor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.contenedor1 {
+  margin-bottom: 30px;
+}
+.contenedor1-1, .contenedor1-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.control1, .control2 {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+.control1:focus, .control2:focus {
+  border-color: #0074d9;
+  outline: none;
+}
+input::placeholder {
+  color: #aaa;
+}
+.color1 {
+  color: #e74c3c;
+}
+.color2 {
+  color: #7f8c8d;
+}
+.contenedor2-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+.contenedor2-1-1, .contenedor2-1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.titulo0 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #34495e;
+}
+.imagen1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.marco1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  color: #555;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+.mano1 {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.mano1:hover {
+  transform: scale(1.1);
+}
+.oculto {
+  display: none;
+}
+.visible {
+  display: flex;
+}

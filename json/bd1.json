@@ -1,0 +1,58 @@
+{
+    "recetas": [
+    {
+        "nombre": "Librillos de lomo",
+        "horario": "comida",
+        "calorias": "medio",
+        "categoria":"carne/proteina",
+        "ingredientes":"cinta de lomo, queso, jamon york, huevo, pan rallado",
+        "duracion": 30,
+        "img": "json/bd1-img/librillos.jpg"
+    },
+    {
+        "nombre": "Crema de calabacin",
+        "horario": "cena",
+        "calorias": "bajo",
+        "categoria":"verdura",
+        "ingredientes":"calabacin, queso, picatostes, nata, sal, perejil",
+        "duracion": 25,
+        "img": "json/bd1-img/crema.jpg"
+    },
+    {
+        "nombre": "Ensalada quinoa",
+        "horario": "comida",
+        "calorias": "bajo-medio",
+        "categoria":"hidratos/verdura",
+        "ingredientes":"quinoa, pepino, aguacate, tomate, pimiento, pollo, mango, limon, cilantro, aceite, sal",
+        "duracion": 40,
+        "img": "json/bd1-img/quinoa.jpg"
+    },
+    {
+        "nombre": "Tostada aguacate",
+        "horario": "desayuno",
+        "calorias": "bajo-medio",
+        "categoria":"hidratos/proteina",
+        "ingredientes":"pan semillas, aceite, aguacate, huevo cocido, pavo, semillas sesamo",
+        "duracion": 15,
+        "img": "json/bd1-img/tostada.jpg"
+    },
+    {
+        "nombre": "Merluza salsa verde",
+        "horario": "comida",
+        "calorias": "bajo-medio",
+        "categoria":"pescado/proteina",
+        "ingredientes":"merluza, guisantes, caldo pesado, harina, almejas, ajo, aceite, sal",
+        "duracion": 45,
+        "img": "json/bd1-img/merluza.jpg"
+    },
+    {
+        "nombre": "Steak Tartar",
+        "horario": "comida y/o cena",
+        "calorias": "bajo-medio",
+        "categoria":"carne/proteina",
+        "ingredientes":"solomillo, yema huevo, cebolla, alcaparras, cebollino, mostaza, salsa perrins",
+        "duracion": 50,
+        "img": "json/bd1-img/steak.jpg"
+    }
+    ]
+}
